@@ -86,28 +86,28 @@ const slides = [
   {
     id: 1,
     image:
-      "/public/main 1.svg",
+      "https://ik.imagekit.io/bpycreations/main%201.svg?updatedAt=1780547598042",
     // gradient: "from-red-600/40 to-orange-500/40",
     
   },
   {
     id: 2,
     image:
-      "/public/main 2.svg",
+      "https://ik.imagekit.io/bpycreations/main%202.svg?updatedAt=1780547626466",
     // gradient: "from-amber-600/40 to-yellow-500/40",
     
   },
   {
     id: 3,
     image:
-      "/public/main 3.svg",
+      "https://ik.imagekit.io/bpycreations/main%203.svg?updatedAt=1780547634022",
     // gradient: "from-rose-600/40 to-pink-500/40",
     
   },
   {
     id: 4,
     image:
-      "public/main 4.svg",
+      "https://ik.imagekit.io/bpycreations/main%204.svg?updatedAt=1780547607208",
     // gradient: "from-orange-600/40 to-red-500/40",
     
   },

@@ -89,7 +89,7 @@ export default function Navbar() {
                   >
 
                     <span className="absolute phone-ring -top-1   md:w-50 md:h-20 flex items-center justify-center">
-                      <img src="public/sa.svg" width="auto"  alt=" price" />
+                      <img src="https://ik.imagekit.io/bpycreations/sa.svg?updatedAt=1780547588370" width="auto"  alt=" price" />
                     </span>
 
                   </div>

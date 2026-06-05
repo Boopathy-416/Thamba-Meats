@@ -8,8 +8,7 @@ import AppRoutes from "./routes/AppRoutes.jsx";
 
 export default function App() {
   const { progress, loaded } = usePreloader([
-    // "@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');",
-    // "https://jsonplaceholder.typicode.com/users",
+
   ]);
 
 

@@ -1,5 +1,6 @@
 import React from "react";
 import PosterSlider from "./componets/HomePosterSlider";
+import MeatInfoAccordion from "./componets/MeatInfoAccordion";
 // import WhatsNew from "./componets/WhatsNew";
 // import HotSale from "./componets/HotSale";
 // import Footer from "../components/layout/footer/Footer"
@@ -14,6 +15,7 @@ function Home() {
         </div>
       </div>
       <PosterSlider />
+      <MeatInfoAccordion />
 
 
 

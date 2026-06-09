@@ -53,7 +53,7 @@ export default function Navbar() {
     <>
       <nav
         ref={navbarRef}
-        className="fixed top-0 left-0 right-0 z-40 bg-yellow-400 pt-3 border-b border-black/20 backdrop-blur-md"
+        className="fixed rounded-b-4xl top-0 left-0 right-0 z-40 bg-[#F58F20] pt-3 border-b border-black/20 backdrop-blur-md"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 md:h-20">

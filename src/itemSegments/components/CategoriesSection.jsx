@@ -25,10 +25,10 @@ export const CategoriesSection = () => {
 
   return (
     <>
-      <div className="py-12 px-4 sm:px-6 lg:px-8">
+      <div className="py-12 px-4  sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           {/* Header */}
-          <div className="text-center mb-12">
+          <div className="md:text-start text-center mb-12">
             <h1 className="text-4xl font-bold text-gray-900 mb-2">
               Explore by Category
             </h1>
@@ -36,9 +36,8 @@ export const CategoriesSection = () => {
               Premium farm-fresh meats and seafood
             </p>
           </div>
-
           {/* Delivery Info */}
-          <div className="mb-8 flex justify-center">
+          <div className="mb-8 flex justify-end">
             <div className="flex items-center gap-3 bg-red-50 border border-red-200 px-6 py-3 rounded-lg">
               <span className="text-3xl">🚚</span>
               <div>
@@ -47,6 +46,7 @@ export const CategoriesSection = () => {
               </div>
             </div>
           </div>
+
 
           {/* Categories Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -57,23 +57,23 @@ export const CategoriesSection = () => {
                   categoryRefs.current[category.id] = el;
                 }}
                 onClick={() => handleCategoryClick(category)}
-                className="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer hover:shadow-xl transition-shadow p-0 border border-gray-100"
+                className="bg-[#467434]  rounded-lg  overflow-hidden cursor-pointer  hover:shadow-lg shadow-[20_4px_6px_-1px_rgba(0,0,0,0.1)] transition-shadow p-0 border border-gray-100"
               >
                 {/* Image */}
                 <div className="relative h-48 overflow-hidden bg-gray-100">
                   <img
                     src={category.image}
                     alt={category.name}
-                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                    className="w-full h-full object-contain rounded-xl    transition-transform duration-500"
                   />
                 </div>
 
                 {/* Content */}
-                <div className="p-4 text-center">
-                  <h3 className="text-xl font-bold text-gray-800 mb-1">
+                <div className="p-4 bg-[#467434] text-white text-center">
+                  <h3 className="text-xl font-bold  mb-1">
                     {category.name}
                   </h3>
-                  <p className="text-sm text-gray-600">{category.description}</p>
+                  <p className="text-sm text-gray-200">{category.description}</p>
                 </div>
               </div>
             ))}

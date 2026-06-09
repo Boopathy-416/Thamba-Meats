@@ -5,7 +5,7 @@ const MENU_ITEMS = [
   { label: "Shop", href: "/new" },
   { label: "Hot Sales", href: "/sale" },
   { label: "Our Meat", href: "/trends" },
-  { label: "Order Online", href: "#videos" },
+  { label: "Order Online", href: "/order" },
   { label: "Contact", href: "#equipment" },
 
 ];

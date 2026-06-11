@@ -2,34 +2,35 @@ export const categories = [
   {
     id: 'country',
     name: 'Original Village Country Chicken',
-    image: 'public/Category/Og.svg',
+    image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781186493/Og_goi3bb.webp',
     description: 'Authentic free-range village country chicken, naturally raised for rich taste and superior quality.',
   },
   {
     id: 'chicken',
     name: 'Fresh Chicken Cuts',
-    image: 'public/Category/Bioller.svg',
+    image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781186492/Bioller_lv6czn.webp',
     description: 'Premium fresh chicken cuts, boneless, whole chicken, drumsticks, wings, liver, gizzard, and specialty cuts.',
   },
   {
     id: 'farm',
     name: 'Farm Country Chicken',
-    image: 'public/Category/Farm Country Chicken.svg',
+    image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781186493/Farm_Country_Chicken_kotnqe.webp',
     description: 'Premium farm-raised country chicken available in grazing, commercial, and parent bird varieties.',
   },
   {
     id: 'goat',
     name: 'Premium Mutton & Goat Meat',
-    image: 'public/Category/goat.svg',
+    image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781186493/goat_edhlhl.webp',
     description: 'Fresh mutton cuts, organ meats, soup bones, trotters, and specialty goat products sourced daily.',
   },
   {
     id: 'fish',
     name: 'Fresh Fish & Seafood',
-    image: 'public/Category/Fish.svg',
+    image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781186492/Fish_zvi1lg.webp',
     description: 'Premium fresh fish and seafood including seer fish, pomfret, prawns, crab, squid, freshwater, and ocean varieties.',
   },
 ];
+
 
 export const products = {
   chicken: [
@@ -39,25 +40,17 @@ export const products = {
       category: 'chicken',
       retail: { price: 340, unit: 'per kg' },
       wholesale: { price: 333, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781189051/Chicken_Breast_Boneless_nutbcj.webp',
       description: 'Premium boneless chicken breast, lean and high in protein.',
     },
-    {
-      id: 'chicken-leg-boneless',
-      name: 'Chicken Leg Boneless',
-      category: 'chicken',
-      retail: { price: 360, unit: 'per kg' },
-      wholesale: { price: 353, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
-      description: 'Tender boneless chicken leg meat with rich flavor.',
-    },
+
     {
       id: 'chicken-cut-pieces-skin',
       name: 'Chicken Cut Pieces With Skin',
       category: 'chicken',
       retail: { price: 245, unit: 'per kg' },
       wholesale: { price: 240, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781189051/country-chicken-boneless_zjnleb.webp',
       description: 'Fresh chicken cut pieces with skin, ideal for grilling and roasting.',
     },
     {
@@ -66,7 +59,7 @@ export const products = {
       category: 'chicken',
       retail: { price: 275, unit: 'per kg' },
       wholesale: { price: 270, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179530/Chicken_Cut_Pieces_Without_Skin_fivz5s.webp',
       description: 'Fresh skinless chicken cut pieces, cleaned and ready to cook.',
     },
     {
@@ -75,7 +68,7 @@ export const products = {
       category: 'chicken',
       retail: { price: 340, unit: 'per kg' },
       wholesale: { price: 333, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179529/Chicken_Boneless_e4wzmz.webp',
       description: 'Fresh boneless chicken pieces, perfect for curries and stir-fries.',
     },
     {
@@ -84,7 +77,7 @@ export const products = {
       category: 'chicken',
       retail: { price: 300, unit: 'per kg' },
       wholesale: { price: 294, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179530/Chicken_Drumstick_Without_Skin_yhczeo.webp',
       description: 'Juicy chicken drumsticks without skin, packed with flavor.',
     },
     {
@@ -93,7 +86,7 @@ export const products = {
       category: 'chicken',
       retail: { price: 300, unit: 'per kg' },
       wholesale: { price: 294, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179530/Chicken_Drumstick_With_Skin_r36wvx.webp',
       description: 'Fresh chicken drumsticks with skin, ideal for grilling and frying.',
     },
     {
@@ -102,7 +95,7 @@ export const products = {
       category: 'chicken',
       retail: { price: 380, unit: 'per kg' },
       wholesale: { price: 372, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179531/Chicken_Mince_1_bkfuk5.webp',
       description: 'Freshly minced chicken, perfect for kebabs, patties, and rolls.',
     },
     {
@@ -111,7 +104,7 @@ export const products = {
       category: 'chicken',
       retail: { price: 310, unit: 'per kg' },
       wholesale: { price: 304, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179531/Chicken_Lollipop_uegged.webp',
       description: 'Restaurant-style chicken lollipops, cleaned and ready to marinate.',
     },
     {
@@ -120,7 +113,7 @@ export const products = {
       category: 'chicken',
       retail: { price: 310, unit: 'per kg' },
       wholesale: { price: 304, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179532/Chicken_Thighs_Leg_Quarter_Without_Skin_vqsg3q.webp',
       description: 'Fresh chicken thigh quarters without skin, tender and juicy.',
     },
     {
@@ -129,7 +122,7 @@ export const products = {
       category: 'chicken',
       retail: { price: 310, unit: 'per kg' },
       wholesale: { price: 304, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179532/Chicken_Thighs_Leg_Quarter_With_Skin_f89w3c.webp',
       description: 'Flavorful chicken thigh quarters with skin, perfect for roasting.',
     },
     {
@@ -138,7 +131,7 @@ export const products = {
       category: 'chicken',
       retail: { price: 270, unit: 'per kg' },
       wholesale: { price: 265, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179532/Chicken_Wings_With_Skin_1_rff4ut.webp',
       description: 'Fresh chicken wings with skin, ideal for spicy wing recipes.',
     },
     {
@@ -147,7 +140,7 @@ export const products = {
       category: 'chicken',
       retail: { price: 240, unit: 'per kg' },
       wholesale: { price: 235, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179538/Whole_Chicken_with_skin_1_kweion.webp',
       description: 'Whole chicken with skin, 1.2 to 1.4 kg size, without neck.',
     },
     {
@@ -156,7 +149,7 @@ export const products = {
       category: 'chicken',
       retail: { price: 270, unit: 'per kg' },
       wholesale: { price: 265, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179538/Whole_Chicken_without_skin_1_lvmiwg.webp',
       description: 'Whole skinless chicken, 1.2 to 1.4 kg size, without neck.',
     },
     {
@@ -165,7 +158,7 @@ export const products = {
       category: 'chicken',
       retail: { price: 360, unit: 'per kg' },
       wholesale: { price: 353, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179532/chicken_shawarma_cut_b3bstm.webp',
       description: 'Special shawarma-cut chicken strips, ready for marination.',
     },
     {
@@ -174,34 +167,17 @@ export const products = {
       category: 'chicken',
       retail: { price: 360, unit: 'per kg' },
       wholesale: { price: 353, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179532/chicken_Supreme_1_fxfklu.webp',
       description: 'Premium quality chicken supreme cuts with superior tenderness.',
     },
-    {
-      id: 'chicken-thigh-boneless',
-      name: 'Chicken Thigh Boneless',
-      category: 'chicken',
-      retail: { price: 370, unit: 'per kg' },
-      wholesale: { price: 363, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
-      description: 'Boneless chicken thigh meat, juicy and full of flavor.',
-    },
-    {
-      id: 'chicken-thigh-bone',
-      name: 'Chicken Thigh With Bone',
-      category: 'chicken',
-      retail: { price: 320, unit: 'per kg' },
-      wholesale: { price: 314, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
-      description: 'Fresh chicken thighs with bone, perfect for traditional recipes.',
-    },
+
     {
       id: 'chicken-bone',
       name: 'Chicken Bone',
       category: 'chicken',
       retail: { price: 105, unit: 'per kg' },
       wholesale: { price: 103, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179529/chicken_Bone_hq6den.webp',
       description: 'Fresh chicken bones, ideal for soups, broths, and stock.',
     },
     {
@@ -210,7 +186,7 @@ export const products = {
       category: 'chicken',
       retail: { price: 135, unit: 'per kg' },
       wholesale: { price: 132, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179531/chicken_liver_lefihg.webp',
       description: 'Fresh chicken liver, rich in nutrients and flavor.',
     },
     {
@@ -219,7 +195,7 @@ export const products = {
       category: 'chicken',
       retail: { price: 175, unit: 'per kg' },
       wholesale: { price: 172, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179531/chicken_Gizzard_sdrxan.webp',
       description: 'Fresh chicken gizzard, cleaned and ready to cook.',
     }
   ],
@@ -230,7 +206,7 @@ export const products = {
       category: 'country-chicken',
       retail: { price: 700, unit: 'per kg' },
       wholesale: { price: 686, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cmk3YWFtYWZmM2U2OXJlZW12dXFlYmc1aWhjOXBsN3VxeWlidnBvdCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/YNeB2TJgKykK62ZFs7/giphy.gif',
       description: 'Healthy live village country chicken from original free-range breeds.',
     },
     {
@@ -239,7 +215,7 @@ export const products = {
       category: 'country-chicken',
       retail: { price: 900, unit: 'per kg' },
       wholesale: { price: 882, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image:'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781184317/Parent_Country_Chicken_Cuts_cyhqza.webp',
       description: 'Freshly processed country chicken with skin, rich in flavor and texture.',
     },
     {
@@ -248,7 +224,7 @@ export const products = {
       category: 'country-chicken',
       retail: { price: 1100, unit: 'per kg' },
       wholesale: { price: 1078, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781185294/country-chicken-without-skin_gufepj.webp',
       description: 'Premium skinless country chicken, cleaned and ready for cooking.',
     },
     {
@@ -257,7 +233,7 @@ export const products = {
       category: 'country-chicken',
       retail: { price: 1350, unit: 'per kg' },
       wholesale: { price: 1323, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781185294/country-chicken-boneless_pp7kal.webp',
       description: 'Premium boneless country chicken, naturally raised and expertly trimmed for convenience.',
     },
   ],
@@ -268,7 +244,7 @@ export const products = {
       category: 'farm-country-chicken',
       retail: { price: 450, unit: 'per kg' },
       wholesale: { price: 441, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cmk3YWFtYWZmM2U2OXJlZW12dXFlYmc1aWhjOXBsN3VxeWlidnBvdCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/nybBKjNupxWF9qkLvB/giphy.gif',
       description: 'Naturally grazing country chicken, healthy, flavorful, and traditionally raised.',
     },
     {
@@ -277,7 +253,7 @@ export const products = {
       category: 'farm-country-chicken',
       retail: { price: 600, unit: 'per kg' },
       wholesale: { price: 588, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781184317/Grazing_Country_Chicken_Cuts_zv8txd.webp',
       description: 'Freshly cut grazing country chicken with rich taste and firm texture.',
     },
     {
@@ -286,7 +262,8 @@ export const products = {
       category: 'farm-country-chicken',
       retail: { price: 350, unit: 'per kg' },
       wholesale: { price: 343, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZnBzOWVoODd1YmFoYnozcXJmeXB2ZmVuczBkeDB3cXg3eTc0Yjg5NSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HJfwaivyH2aM9FTLRr/giphy.gif',
+
       description: 'Quality farm-raised commercial country chicken available in live weight.',
     },
     {
@@ -295,7 +272,7 @@ export const products = {
       category: 'farm-country-chicken',
       retail: { price: 450, unit: 'per kg' },
       wholesale: { price: 441, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781184315/Commercial_Country_Chicken_Cuts_w8q6hb.webp',
       description: 'Fresh commercial country chicken cuts, cleaned and ready to cook.',
     },
     {
@@ -304,7 +281,7 @@ export const products = {
       category: 'farm-country-chicken',
       retail: { price: 400, unit: 'per kg' },
       wholesale: { price: 392, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cmk3YWFtYWZmM2U2OXJlZW12dXFlYmc1aWhjOXBsN3VxeWlidnBvdCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1vprS2qodAKxtgutwM/giphy.gif',
       description: 'Premium parent bird country chicken with excellent meat quality and flavor.',
     },
     {
@@ -313,7 +290,7 @@ export const products = {
       category: 'farm-country-chicken',
       retail: { price: 550, unit: 'per kg' },
       wholesale: { price: 539, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1587223735304-397a33715d5d?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781184317/Parent_Country_Chicken_Cuts_cyhqza.webp',
       description: 'Freshly processed parent country chicken cuts, ideal for traditional recipes.',
     },
   ],
@@ -324,7 +301,7 @@ export const products = {
       category: 'fish',
       retail: { price: 1200, unit: 'per kg' },
       wholesale: { price: 1176, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1580959375944-abd7e991f971?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781182147/vanjaram_fish_ad16qu.webp',
       description: 'Premium seer fish with firm texture, ideal for steaks and curries.',
     },
     {
@@ -333,7 +310,7 @@ export const products = {
       category: 'fish',
       retail: { price: 850, unit: 'per kg' },
       wholesale: { price: 833, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1580959375944-abd7e991f971?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781182139/Pomfret_Vaaval_dc4bkb.webp',
       description: 'Fresh pomfret fish known for its delicate flavor and soft meat.',
     },
     {
@@ -342,7 +319,7 @@ export const products = {
       category: 'fish',
       retail: { price: 750, unit: 'per kg' },
       wholesale: { price: 735, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1580959375944-abd7e991f971?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781182140/King_Fish___Cobia_Nei_Meen_uw1tmk.webp',
       description: 'Premium king fish with rich taste and excellent meat quality.',
     },
     {
@@ -351,7 +328,7 @@ export const products = {
       category: 'fish',
       retail: { price: 220, unit: 'per kg' },
       wholesale: { price: 216, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1580959375944-abd7e991f971?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781182141/Sardine_Mathi_hsru8r.webp',
       description: 'Fresh sardines rich in omega-3 and perfect for traditional recipes.',
     },
     {
@@ -360,7 +337,7 @@ export const products = {
       category: 'fish',
       retail: { price: 320, unit: 'per kg' },
       wholesale: { price: 314, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1580959375944-abd7e991f971?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781182145/Indian_Mackerel_Ayilai_wf544k.webp',
       description: 'Fresh Indian mackerel with rich flavor and tender meat.',
     },
     {
@@ -369,7 +346,7 @@ export const products = {
       category: 'fish',
       retail: { price: 280, unit: 'per kg' },
       wholesale: { price: 274, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1580959375944-abd7e991f971?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781182135/Anchovy_Nethili_pn7vs9.webp',
       description: 'Small fresh anchovies, perfect for frying and traditional dishes.',
     },
     {
@@ -378,7 +355,7 @@ export const products = {
       category: 'fish',
       retail: { price: 450, unit: 'per kg' },
       wholesale: { price: 441, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1580959375944-abd7e991f971?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781182136/Barracuda_Seela_mipe1y.webp',
       description: 'Fresh barracuda fish with firm meat and excellent taste.',
     },
     {
@@ -387,7 +364,7 @@ export const products = {
       category: 'fish',
       retail: { price: 420, unit: 'per kg' },
       wholesale: { price: 412, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1580959375944-abd7e991f971?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781182142/Red_Snapper_Sankara_dmvgof.webp',
       description: 'Fresh red snapper, highly popular for curries and frying.',
     },
     {
@@ -396,7 +373,7 @@ export const products = {
       category: 'fish',
       retail: { price: 280, unit: 'per kg' },
       wholesale: { price: 274, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1580959375944-abd7e991f971?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781182137/Lady_Fish_Kilangan_uoyzuu.webp',
       description: 'Fresh lady fish with mild flavor and soft texture.',
     },
     {
@@ -405,7 +382,7 @@ export const products = {
       category: 'fish',
       retail: { price: 380, unit: 'per kg' },
       wholesale: { price: 372, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1580959375944-abd7e991f971?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781182145/Trevally_Paarai_bneqkl.webp',
       description: 'Premium trevally fish with firm meat and rich flavor.',
     },
     {
@@ -414,7 +391,7 @@ export const products = {
       category: 'fish',
       retail: { price: 250, unit: 'per kg' },
       wholesale: { price: 245, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1580959375944-abd7e991f971?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781182144/Silver_Belly_Karapodi_rmsnol.webp',
       description: 'Fresh silver belly fish ideal for frying and curries.',
     },
     {
@@ -423,26 +400,8 @@ export const products = {
       category: 'fish',
       retail: { price: 550, unit: 'per kg' },
       wholesale: { price: 539, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1580959375944-abd7e991f971?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781182143/Shark_Sura_vxfp5z.webp',
       description: 'Fresh shark meat, popular for traditional South Indian dishes.',
-    },
-    {
-      id: 'choorai-tuna',
-      name: 'Tuna (Choorai)',
-      category: 'fish',
-      retail: { price: 420, unit: 'per kg' },
-      wholesale: { price: 412, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1580959375944-abd7e991f971?w=300&h=300&fit=crop',
-      description: 'Fresh tuna fish rich in protein and ideal for grilling.',
-    },
-    {
-      id: 'viral-murrel',
-      name: 'Murrel Fish (Viral)',
-      category: 'fish',
-      retail: { price: 700, unit: 'per kg' },
-      wholesale: { price: 686, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1580959375944-abd7e991f971?w=300&h=300&fit=crop',
-      description: 'Premium freshwater murrel fish known for its taste and nutrition.',
     },
     {
       id: 'tilapia-jilabi',
@@ -450,7 +409,7 @@ export const products = {
       category: 'fish',
       retail: { price: 220, unit: 'per kg' },
       wholesale: { price: 216, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1580959375944-abd7e991f971?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781182145/Tilapia_Jilabi_swayui.webp',
       description: 'Fresh tilapia fish with mild flavor and tender meat.',
     },
     {
@@ -459,7 +418,7 @@ export const products = {
       category: 'fish',
       retail: { price: 280, unit: 'per kg' },
       wholesale: { price: 274, unit: 'per kg', minQty: 5 },
-      image: 'https://images.unsplash.com/photo-1580959375944-abd7e991f971?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179530/Catla___Rohu___Carp_Kendai_pvvccx.webp',
       description: 'Freshwater carp fish suitable for curries and traditional cooking.',
     },
     {
@@ -468,7 +427,7 @@ export const products = {
       category: 'fish',
       retail: { price: 650, unit: 'per kg' },
       wholesale: { price: 637, unit: 'per kg', minQty: 3 },
-      image: 'https://images.unsplash.com/photo-1580959375944-abd7e991f971?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781182141/Prawns_Eral_xqihvr.webp',
       description: 'Fresh prawns, cleaned and ready for cooking.',
     },
     {
@@ -477,7 +436,7 @@ export const products = {
       category: 'fish',
       retail: { price: 550, unit: 'per kg' },
       wholesale: { price: 539, unit: 'per kg', minQty: 3 },
-      image: 'https://images.unsplash.com/photo-1580959375944-abd7e991f971?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179534/Crab_Nandu_kd9pwu.webp',
       description: 'Fresh sea crab with sweet and flavorful meat.',
     },
     {
@@ -486,7 +445,7 @@ export const products = {
       category: 'fish',
       retail: { price: 450, unit: 'per kg' },
       wholesale: { price: 441, unit: 'per kg', minQty: 3 },
-      image: 'https://images.unsplash.com/photo-1580959375944-abd7e991f971?w=300&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781182143/Squid_Kanava_letbfn.webp',
       description: 'Fresh squid, cleaned and perfect for frying and curries.',
     },
   ],
@@ -497,7 +456,7 @@ export const products = {
       category: 'goat',
       retail: { price: 800, unit: 'per kg' },
       wholesale: { price: 784, unit: 'per kg', minQty: 3 },
-      image: 'public/Category/Goat/mutton-curry-cut.svg',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179537/mutton-curry-cut_mketz5.webp',
       description: 'Fresh mutton curry cut with a balanced mix of meat and bone, perfect for traditional curries.',
     },
     {
@@ -506,7 +465,7 @@ export const products = {
       category: 'goat',
       retail: { price: 1100, unit: 'per kg' },
       wholesale: { price: 1078, unit: 'per kg', minQty: 3 },
-      image: 'public/Category/Goat/Mutton Boneless.svg',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179535/Mutton_Boneless_xtmdq9.webp',
       description: 'Premium boneless mutton, expertly trimmed and ready for cooking.',
     },
     {
@@ -515,7 +474,7 @@ export const products = {
       category: 'goat',
       retail: { price: 1000, unit: 'per kg' },
       wholesale: { price: 980, unit: 'per kg', minQty: 3 },
-      image: 'public/Category/Goat/Mutton Keema.svg',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781181443/Mutton_Keema_xys0jy.webp',
       description: 'Freshly minced mutton prepared from premium boneless cuts.',
     },
     {
@@ -524,7 +483,7 @@ export const products = {
       category: 'goat',
       retail: { price: 450, unit: 'per kg' },
       wholesale: { price: 441, unit: 'per kg', minQty: 3 },
-      image: 'public/Category/Goat/Mutton Soup Bones.svg',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179538/Mutton_Soup_Bones_g8tgqx.webp',
       description: 'Cleaned marrow and rib bones ideal for rich soups and broths.',
     },
     {
@@ -533,7 +492,7 @@ export const products = {
       category: 'goat',
       retail: { price: 900, unit: 'per kg' },
       wholesale: { price: 882, unit: 'per kg', minQty: 3 },
-      image: 'public/Category/Goat/Mutton Liver (Eeral).svg',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179536/Mutton_Liver_Eeral_idtafl.webp',
       description: 'Fresh mutton liver, rich in nutrients and packed with flavor.',
     },
     {
@@ -542,7 +501,7 @@ export const products = {
       category: 'goat',
       retail: { price: 1100, unit: 'per kg' },
       wholesale: { price: 1078, unit: 'per kg', minQty: 3 },
-      image: 'public/Category/Goat/Mutton Spleen (Thilli).svg',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781181445/Mutton_Spleen_Thilli_jfa4xn.webp',
       description: 'Premium mutton spleen, carefully cleaned and prepared.',
     },
     {
@@ -551,7 +510,7 @@ export const products = {
       category: 'goat',
       retail: { price: 400, unit: 'per kg' },
       wholesale: { price: 392, unit: 'per kg', minQty: 3 },
-      image: 'public/Category/Goat/Mutton Boti (Tripe).svg',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781181442/Mutton_Boti_Tripe_xncne8.webp',
       description: 'Fresh cleaned tripe and intestines, perfect for traditional recipes.',
     },
     {
@@ -560,7 +519,7 @@ export const products = {
       category: 'goat',
       retail: { price: 300, unit: 'per kg' },
       wholesale: { price: 294, unit: 'per kg', minQty: 3 },
-      image: 'public/Category/Goat/Mutton Lungs (Nuraieeral).svg',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781181445/Mutton_Lungs_Nuraieeral_s0yplm.webp',
       description: 'Fresh mutton lungs, cleaned and ready for cooking.',
     },
     {
@@ -569,7 +528,7 @@ export const products = {
       category: 'goat',
       retail: { price: 50, unit: 'per block' },
       wholesale: { price: 49, unit: 'per block', minQty: 10 },
-      image: 'public/Category/Goat/Mutton Blood (Raththam).svg',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781181442/Mutton_Blood_Raththam_dtge0q.webp',
       description: 'Fresh solidified mutton blood, ideal for traditional Raththa Poriyal.',
     },
     {
@@ -578,8 +537,17 @@ export const products = {
       category: 'goat',
       retail: { price: 60, unit: 'per piece' },
       wholesale: { price: 59, unit: 'per piece', minQty: 10 },
-      image: 'public/Category/Goat/Mutton Paya (Trotters).svg',
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781181445/Mutton_Paya_Trotters_uwz5rb.webp',
       description: 'Fresh goat trotters, perfect for authentic paya soup and broths.',
     },
+    {
+      id: 'mutton-Brain',
+      name: 'Mutton Brain (Moolai)',
+      category: 'goat',
+      retail: { price: 300, unit: 'per kg' },
+      wholesale: { price: 294, unit: 'per kg', minQty: 3 },
+      image: 'https://res.cloudinary.com/da6mndffu/image/upload/q_auto/f_auto/v1781179538/Mutton_Brain_hrzvz8.webp',
+      description: 'Fresh mutton brain, cleaned and ready for cooking.',
+    }
   ]
 };

@@ -76,7 +76,7 @@ export default function MeatInfoAccordion() {
     };
 
     return (
-        <section className="w-full bg-gray-100 py-16">
+        <section className="w-full bg-[#f3dfd4] py-16">
             <div className="max-w-7xl mx-auto px-6">
                 <h2 className="text-4xl font-bold text-gray-900 mb-10">
                     Why Choose Thamba Meats?

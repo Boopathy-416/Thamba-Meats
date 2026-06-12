@@ -2,9 +2,9 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 
 const MENU_ITEMS = [
-  { label: "Shop", href: "/new" },
-  { label: "Hot Sales", href: "/sale" },
-  { label: "Our Meat", href: "/trends" },
+  { label: "Home", href: "/" },
+  { label: "Hot Sales", href: "/new" },
+  { label: "Our Meat", href: "/promo" },
   { label: "Order Online", href: "/order" },
   { label: "Contact", href: "#equipment" },
 

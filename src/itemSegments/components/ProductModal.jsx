@@ -60,21 +60,21 @@ export const ProductModal = ({ categoryId, categoryName, isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center">
+    <div className="fixed  inset-0 z-50 flex items-center justify-center">
       {/* Backdrop */}
       <div
         ref={backdropRef}
         onClick={handleClose}
-        className="absolute inset-0 bg-black opacity-0"
+        className="absolute inset-0 bg-black/80 opacity-0"
       />
 
       {/* Modal */}
       <div
         ref={modalRef}
-        className="relative bg-white rounded-xl shadow-2xl max-h-[90vh] w-full max-w-2xl overflow-y-auto"
+        className="relative bg-[#f3dfd4] rounded-xl shadow-2xl max-h-[90vh] w-full max-w-4xl overflow-y-auto opacity-0 scale-95"
       >
         {/* Header */}
-        <div className="sticky top-0 bg-red-600 text-white p-6 flex justify-between items-center rounded-t-xl">
+        <div className="sticky z-60 top-0 bg-red-600 text-white p-6 flex justify-between items-center rounded-t-xl">
           <h2 className="text-2xl font-bold">{categoryName}</h2>
           <button
             onClick={handleClose}
@@ -98,7 +98,7 @@ export const ProductModal = ({ categoryId, categoryName, isOpen, onClose }) => {
                   <img
                     src={product.image}
                     alt={product.name}
-                    className="w-full h-40 object-cover"
+                    className="w-full h-40 object-contain "
                   />
                   <div className="p-4">
                     <h3 className="font-semibold text-lg text-gray-800">

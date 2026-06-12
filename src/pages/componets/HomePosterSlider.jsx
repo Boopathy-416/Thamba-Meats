@@ -1,84 +1,3 @@
-// import { useEffect, useRef, useState } from "react";
-// import { gsap } from "gsap";
-
-
-
-
-// export default function PosterSlider() {
-//   const [current, setCurrent] = useState(0);
-//   const containerRef = useRef(null);
-//   const intervalRef = useRef(null);
-
-//   // GSAP slide animation
-//   const goToSlide = (index) => {
-//     const slides = containerRef.current.children;
-//     const total = slides.length;
-//     const next = (index + total) % total;
-
-//     gsap.to(slides, {
-//       xPercent: -100 * next,
-//       duration: 2.2,
-//       ease: "power3.inOut",
-//     });
-
-//     setCurrent(next);
-//   };
-
-//   // Auto-play every 3s
-//   useEffect(() => {
-//     intervalRef.current = setInterval(() => goToSlide(current + 1), 3000);
-//     return () => clearInterval(intervalRef.current);
-//   }, [current]);
-
-//   // Hover zones
-//   const handleHover = (direction) => {
-//     clearInterval(intervalRef.current);
-//     goToSlide(current + direction);
-//   };
-
-//   return (
-//     <div className="relative w-full h-screen overflow-hidden rounded-2xl shadow-lg">
-//       {/* Slides */}
-//       <div ref={containerRef} className="flex w-full h-full">
-
-//       </div>
-//       {/* Center Overlay Content */}
-//       <div className="absolute inset-0 flex flex-col pointer-events-none items-center justify-center text-center text-white px-4 bg-black/40 backdrop-blur-[1px]">
-//         <h1 className="text-6xl md:w-1/2 md:text-7xl font-semibold mb-4 bebas  leading-tighter tracking-tight">
-//           We give women the confidence to live life fully.
-//         </h1>
-//         <p className="text-lg md:text-xl leading-tighter font-thin mb-6">
-//           We create <span className="mask-l-from-neutral-900 text-pink-300">makeup</span> that
-//           inspires.
-//         </p>
-//         <button className="border bg-[#ff9531] border-white border-b-4 px-7 py-1.5 rounded-full text-lg bebas tracking-widest text-black transition-all duration-300">
-//           Shop Now
-//         </button>
-
-//         {/* Arrow */}
-//         {/* <div className="mt-8 animate-bounce text-2xl">⬇️</div> */}
-//       </div>
-//       {/* Hover Controls */}
-//       <div
-//         className="absolute top-0 left-0 w-1/2 h-full cursor-pointer z-10"
-//         onMouseEnter={() => handleHover(-1)}
-//       />
-//       <div
-//         className="absolute top-0 right-0 w-1/2 h-full cursor-pointer z-10"
-//         onMouseEnter={() => handleHover(1)}
-//       />
-
-//       {/* Dots */}
-//       <div className="absolute bottom-4 left-0 right-0 flex justify-center space-x-2">
-       
-//       </div>
-//     </div>
-//   );
-// }
-
-
-
-
 import { useState, useEffect, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
@@ -193,11 +112,11 @@ export default function PosterSlider() {
   };
 
   return (
-    <div className="relative md:mt-6  md:px-5 px-2.5 z-20 w-full h-30 md:h-100 ">
+    <div className="relative bg-[#f3dfd4] md:mt-6  md:px-20 px-2.5 z-20 w-full h-30 md:h-100 ">
       {/* Slider */}
       <div
         ref={sliderRef}
-        className="relative w-full h-full cursor-grab active:cursor-grabbing"
+        className="relative shadow-2xl shadow-black/90 rounded-lg w-full h-full cursor-grab active:cursor-grabbing"
         onMouseDown={handleDragStart}
         onMouseMove={handleDragMove}
         onMouseUp={handleDragEnd}
@@ -217,7 +136,7 @@ export default function PosterSlider() {
             <img
               src={slide.image}
               alt={slide.title}
-              className="w-full h-full md:object-cover object-contain rounded-lg  "
+              className="w-full h-full md:object-cover rounded-lg object-contain   "
               draggable={false}
             />
 
@@ -239,16 +158,16 @@ export default function PosterSlider() {
       {/* Arrows */}
       <button
         onClick={handlePrev}
-        className="absolute left-4 md:left-6 top-1/2 -translate-y-1/2 z-20 bg-white/20 p-3 rounded-full backdrop-blur-sm"
+        className="absolute left-4 md:left-6 top-1/2 -translate-y-1/2 z-20 text-white bg-black/30 hover:bg-white/50 hover:text-black  p-3 rounded-full backdrop-blur-sm"
       >
-        <ChevronLeft className="w-3 h-3 md:w-6 md:h-6 text-white" />
+        <ChevronLeft className="w-3 h-3 md:w-6 md:h-6 " />
       </button>
 
       <button
         onClick={handleNext}
-        className="absolute right-3 md:right-6 top-1/2 -translate-y-1/2 z-20 bg-white/20 p-3 rounded-full backdrop-blur-sm"
+        className="absolute right-3 md:right-6 top-1/2 -translate-y-1/2 z-20 text-white bg-black/30 hover:bg-white/50 hover:text-black  p-3 rounded-full backdrop-blur-sm"
       >
-        <ChevronRight className="w-3 h-3 md:w-6 md:h-6 text-white" />
+        <ChevronRight className="w-3 h-3 md:w-6 md:h-6 " />
       </button>
 
       {/* Dots */}
@@ -266,10 +185,7 @@ export default function PosterSlider() {
         ))}
       </div>
 
-      {/* Counter */}
-      <div className="absolute md:top-6 md:right-6 top-3 right-3 md:text-xs text-[4px] text-white bg-black/30 md:px-4 md:py-2 px-1.5 rounded-full backdrop-blur-sm">
-        {currentSlide + 1} / {slides.length}
-      </div>
+ 
     </div>
   );
 }

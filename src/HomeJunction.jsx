@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 function HomeJunction() {
   return (
     <CartProvider>
-      <div className="min-h-screen md:py-16 py-8 bg-gradient-to-br from-gray-50 to-gray-100">
+      <div className="min-h-screen md:py-16 py-8 bg-[#f3dfd4]">
         {/* Header */}
        
         {/* <header className="bg-white shadow-sm sticky top-0 z-30">

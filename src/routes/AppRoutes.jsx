@@ -4,6 +4,7 @@ import Home from "../pages/Home.jsx";
 
 import HomeJunction from "../HomeJunction.jsx";
 import OrderSection from "../OrderSection.jsx";
+import ThambaMeatsPromo from "../pages/PromoSection.jsx";
 
 export default function AppRoutes() {
     return (
@@ -11,6 +12,7 @@ export default function AppRoutes() {
             <Route path="/" element={<Home />} />
           <Route path="/new" element={<HomeJunction />} />
           <Route path="/order" element={<OrderSection />} />
+            <Route path="/promo" element={<ThambaMeatsPromo />} />
             {/* <Route path="/product/:id" element={<ProductPage />} />
             <Route path="/sale" element={<HotSale />} />
             <Route path="/trends" element={<Trends />} />
